@@ -45,5 +45,8 @@
     "vuetify": "^2.5.10",
     "webpack": "^4.46.0",
     "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "nuxt-property-decorator": "^2.9.1"
   }
 }
