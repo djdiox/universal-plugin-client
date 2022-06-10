@@ -11,17 +11,10 @@ module.exports = {
     title: 'universal-plugin-manager',
     meta: [{ charset: 'utf-8' }]
   },
-  loading: false,
-  plugins: [
-    { ssr: true, src: '@/plugins/icons.js' }
-
-  ],
-  buildModules: [
-    '@nuxt/typescript-build'
-  ],
-  modules: [
-    '@nuxtjs/vuetify'
-  ],
+  loading: true,
+  plugins: [{ ssr: true, src: '@/plugins/icons.js' }],
+  buildModules: ['@nuxt/typescript-build'],
+  modules: ['@nuxtjs/vuetify'],
   vuetify: {
     theme: {
       themes: {
